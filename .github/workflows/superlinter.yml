@@ -17,6 +17,6 @@ jobs:
         uses: github/super-linter@v6
         env:
           VALIDATE_ALL_CODEBASE: true
-          DEFAULT_BRANCH: latihan
+          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISABLE_ERRORS: true
